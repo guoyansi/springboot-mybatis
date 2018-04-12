@@ -9,6 +9,12 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 server:
   port: 8082
-logging:
-  level: debug
+  context-path: /test
+myconfig: gys
+age: 25
+content: "myname:${myconfig},age:${age}"
+myconfig1:
+  name: gysssssdddd
+  age: 35
+
 

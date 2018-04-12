@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springmvc-mybatis
+    username: root
+    password: gys
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 8082
+logging:
+  level: debug
+
